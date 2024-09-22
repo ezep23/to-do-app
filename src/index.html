@@ -9,13 +9,17 @@
 <body class="bg-gray-200">
     <main>
         <div class="p-8 max-w-sm mx-auto mt-[15%] bg-white rounded-xl shadow-lg flex items-center justify-evenly space-x-4">
-            <div class="">
-              <input placeholder="ingrese una tarea" class="bg=">
-            </div>
-            <div>
-              <button type="submit" class="bg-gray-500 text-white p-3 rounded-lg">Añadir</button>
-            </div>
+          <div>
+            <input placeholder="Ingrese una tarea..." id="inputTarea" class="bg-gray-500 p-3 text-white placeholder:text-white">
           </div>
+          <div>
+            <button type="submit" onclick="añadirTarea()" class="bg-gray-500 text-white p-3 rounded-lg">Añadir</button>
+          </div>
+        </div>
+        <div id="container" class="flex-column max-w-lg mx-auto mt-8 p-8 bg-white rounded-xl shadow-lg justify-evenly">
+            
+        </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
