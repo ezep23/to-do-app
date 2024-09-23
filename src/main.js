@@ -12,7 +12,7 @@ const añadirTarea = () => {
         const containerTarea = `<hr>
                                     <div class="flex flex-column justify-between m-4">
                                         <p>${nuevaTarea}</p>
-                                        <button onclick="eliminarTarea(${contador})" class="bg-gray-500 text-white rounded-3xl">LISTO</button>
+                                        <button onclick="eliminarTarea(${contador})" class="bg-gray-500 text-white rounded-3xl p-1">✓</button>
                                     </div>
                                     <hr>`;
         tareas.push(containerTarea);
