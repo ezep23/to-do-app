@@ -7,5 +7,7 @@ Un to-do list el cual unicamente permitía crear y eliminar tareas, fue creado u
 
 Screenshots:
 
-![App Screenshot](./img/screen.png)
+![App Screenshot](./img/screen-v1.png)
+
+## v2
 
