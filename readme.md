@@ -1,9 +1,11 @@
 
-# TO-DO list
+# TO-DO´s
 
-Un to-do list utilizando tailwind y javascript vanilla.
+## v1 
 
-## Screenshots
+Un to-do list el cual unicamente permitía crear y eliminar tareas, fue creado utilizando tailwind y javascript vanilla.
+
+Screenshots:
 
 ![App Screenshot](./img/screen.png)
 
